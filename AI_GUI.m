@@ -274,7 +274,7 @@ if ~addidontknowclass & classtype>str2num(a) % total number of classes is same a
         
 %     guidata(hObject, handles);
 %     return;
-else
+else 
 
         handles.ALModel.yidxL = [handles.ALModel.yidxL;classtype];
         if length(handles.ALModel.yidxL)== length(handles.ALModel.idxL) % equal number of examples
