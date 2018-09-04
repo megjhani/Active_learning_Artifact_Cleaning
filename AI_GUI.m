@@ -60,8 +60,7 @@ guidata(hObject, handles);
 
 % UIWAIT makes AI_GUI wait for user response (see UIRESUME)
 % uiwait(handles.figure1);
-% addpath(genpath('D:\2016\02_MOCAIP\active_learning'));
-addpath(genpath('D:\2018\AL\AL_code'));
+addpath(genpath('.\AL_code'));
 [cumcsymbol m]= imread('CUMC.png');
 axes(handles.axes5);
 imshow(cumcsymbol,m);
